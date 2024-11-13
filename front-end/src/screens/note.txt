@@ -1,0 +1,16 @@
+import * as Animatable from 'react-native-animatable';
+
+<Animatable.Image
+        source={require('../screens/first-aid.png')} // Local image (put your image in the assets folder)
+        style={styles.logo}
+        animation="zoomIn"
+        duration={3000}
+      />
+
+
+      logo: {
+    width: 200, // Adjust the size of the image
+    height: 200,
+    marginBottom: 10,
+    alignSelf: 'center', // Center the image horizontally
+  },
